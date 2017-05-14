@@ -990,6 +990,8 @@ under the License.
 						<exclude>tools/flink*/**</exclude>
 						<!-- PyCharm -->
 						<exclude>**/.idea/**</exclude>
+						<exclude>flink-connectors/flink-connector-kinesis/src/test/resources/kinesis-consumer-migration-test-flink1.1-snapshot</exclude>
+						<exclude>flink-connectors/flink-connector-kinesis/src/test/resources/kinesis-consumer-migration-test-flink1.1-snapshot-empty</exclude>
 					</excludes>
 				</configuration>
 			</plugin>
